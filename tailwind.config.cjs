@@ -19,6 +19,8 @@ module.exports = {
       text: "#282B42",
       title: "#6E58F1",
       border: "#E1E3EF",
+      table: "#E9EBF9",
+      "table-text": "#686B8A",
       "menu-active": "rgba(117, 122, 233, 0.10)",
       icon: "#8284AD",
       "dark-blue": "#00056A",
@@ -32,6 +34,9 @@ module.exports = {
       borderRadius: {
         base: "3px",
         md: "4px",
+      },
+      boxShadow: {
+        table: " 0px 2px 10px 0px rgba(20, 20, 20, 0.05)",
       },
     },
   },

@@ -21,5 +21,8 @@ useHead({
 <template>
      <section class="text-center">
         <Nav/>
+        <div class="p-5">
+            <Table/>
+        </div>
     </section>
 </template>

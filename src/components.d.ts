@@ -18,6 +18,7 @@ declare module 'vue' {
     Inbox: typeof import('./components/Icons/Inbox.vue')['default']
     Indicator: typeof import('./components/Icons/Indicator.vue')['default']
     Leads: typeof import('./components/Icons/Leads.vue')['default']
+    Link: typeof import('./components/Icons/Link.vue')['default']
     MenuItem: typeof import('./components/Menu/MenuItem.vue')['default']
     Nav: typeof import('./components/Navbar/Nav.vue')['default']
     NavItem: typeof import('./components/Navbar/NavItem.vue')['default']
