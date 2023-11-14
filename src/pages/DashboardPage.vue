@@ -20,6 +20,6 @@ useHead({
 
 <template>
      <section class="text-center">
-        <h2>asd</h2>
+        <Nav/>
     </section>
 </template>

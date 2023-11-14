@@ -4,9 +4,9 @@ import {menu} from '../data';
 </script>
 
 <template>
-  <aside class="w-56 bg-white border-r-[1px] border-r-border border-border h-screen pt-2.5">
+  <aside class="w-56 min-w-[230px] bg-white border-r-[1px] border-r-border border-border  pt-2.5">
     <ul>
-      <NavItem
+      <MenuItem
         v-for="(item,index) in menu"
         :key="item.id"
         :index="index"

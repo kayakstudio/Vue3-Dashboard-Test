@@ -21,3 +21,11 @@ export const menu = [
     isActive: true,
   },
 ];
+export const nav = [
+  {
+    id: 1,
+    title: "Alll Campaigns",
+    count: 24,
+    isActive: true,
+  },
+];
