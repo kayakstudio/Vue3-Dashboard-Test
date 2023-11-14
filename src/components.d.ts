@@ -7,8 +7,12 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    ActionsMenu: typeof import('./components/Grid/ActionsMenu.vue')['default']
     AppDashboardLayout: typeof import('./layouts/AppDashboardLayout.vue')['default']
     Campaigns: typeof import('./components/Icons/Campaigns.vue')['default']
+    DataBlock: typeof import('./components/Grid/DataBlock.vue')['default']
+    Details: typeof import('./components/Grid/Details.vue')['default']
+    GridHeader: typeof import('./components/Grid/GridHeader.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
     HelloWorld: typeof import('./components/Test/HelloWorld.vue')['default']
     Inbox: typeof import('./components/Icons/Inbox.vue')['default']
@@ -17,8 +21,11 @@ declare module 'vue' {
     MenuItem: typeof import('./components/Menu/MenuItem.vue')['default']
     Nav: typeof import('./components/Navbar/Nav.vue')['default']
     NavItem: typeof import('./components/Navbar/NavItem.vue')['default']
+    ProgressBar: typeof import('./components/Grid/ProgressBar.vue')['default']
+    Report: typeof import('./components/Grid/Report.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Sidebar: typeof import('./components/Sidebar.vue')['default']
+    Table: typeof import('./components/Grid/Table.vue')['default']
   }
 }
