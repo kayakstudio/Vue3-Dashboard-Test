@@ -10,8 +10,7 @@
                 <td class="px-3 py-5 align-middle text-left">
                     <div class="flex justify-start items-center">
                         <ProgressBar/>
-                        <Details/>
-                          
+                        <Details class="ml-7"/>                          
                     </div>
                 </td>
                 <td>
