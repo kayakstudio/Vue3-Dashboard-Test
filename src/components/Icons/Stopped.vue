@@ -1,0 +1,6 @@
+<template>
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9" cy="9" r="8" stroke="#7E808E" stroke-width="1.2"/>
+<path d="M3.66519 14.3363L14.3319 3.66965" stroke="#7E808E" stroke-width="1.2"/>
+</svg>
+</template>
