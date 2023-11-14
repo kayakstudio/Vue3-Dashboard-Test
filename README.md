@@ -1,12 +1,6 @@
 # Kayak Studio :: SL FE DESIGN TECH TEST
 
-Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
-
-This template is **practical** and **batteries included** but not overly complex or bloated. Also explicit configuration over magic; it should be easy to understand how everything works, strip out anything you don't need, and fast to modify things to your needs.
-
-Includes plenty of **examples and documentation** of how to do things but **minimal cruft** to delete to get you going.
-
-Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) for full docs. A [detailed changelog](./CHANGES.md) is available. This repository is also [mirrored on GitLab](https://gitlab.com/uninen/vite-ts-tailwind-starter).
+Check Online Demo =>  **<https://vue3.kayak-studio.com/>**
 
 ## Tech Stacks
 
@@ -42,14 +36,14 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 Using Volar extension for VSCode is recommended to take full advance of the new script setup sugar and full TypeScript support in Vue SFC templates. (This is totally optional but recommended as it results much better DX!) See official IDE Support documentation for more details.
 
 - **Install dependencies**
-- pnpm i
+`pnpm i`
 - **Run development server**
-- pnpm dev
+`pnpm dev`
 - **Run unit + component tests (Vitest)**
-- pnpm test
+`pnpm test`
 - **Run e2e tests (Playwright)**
-- pnpm test-e2e
+`pnpm test-e2e`
 - **Build for production**
-- pnpm build
+`pnpm build`
 - **Other**
 - See package.json for all available commands.

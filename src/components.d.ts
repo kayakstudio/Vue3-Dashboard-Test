@@ -8,15 +8,12 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ActionsMenu: typeof import('./components/Grid/ActionsMenu.vue')['default']
-    AppDashboardLayout: typeof import('./layouts/AppDashboardLayout.vue')['default']
     Campaigns: typeof import('./components/Icons/Campaigns.vue')['default']
-    DataBlock: typeof import('./components/Grid/DataBlock.vue')['default']
     Details: typeof import('./components/Grid/Details.vue')['default']
     Draft: typeof import('./components/Icons/Draft.vue')['default']
     Edit: typeof import('./components/Icons/Edit.vue')['default']
     GridHeader: typeof import('./components/Grid/GridHeader.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
-    HelloWorld: typeof import('./components/Test/HelloWorld.vue')['default']
     Inbox: typeof import('./components/Icons/Inbox.vue')['default']
     Indicator: typeof import('./components/Icons/Indicator.vue')['default']
     Info: typeof import('./components/Icons/Info.vue')['default']
