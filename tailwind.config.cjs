@@ -18,6 +18,8 @@ module.exports = {
       black: "#000",
       text: "#282B42",
       title: "#6E58F1",
+      border: "#E1E3EF",
+      "menu-active": "rgba(117, 122, 233, 0.10)",
       icon: "#8284AD",
       "dark-blue": "#00056A",
     },
