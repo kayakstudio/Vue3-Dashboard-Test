@@ -12,7 +12,7 @@ import {list} from '../../data';
 <template>
     <table class="w-full border-black border-1">
         <GridHeader/>
-        <tbody>
+        <tbody class="bg-white">
             <tr v-for="item in list"  :key="item.id" class="shadow-table">
                 <td class="px-3 py-5 align-middle text-left w-[50px]">
                     <input id="" type="checkbox" name="check" class="bg-white !outline-none !appearance-none border-border border-1 rounded-md">

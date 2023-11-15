@@ -21,7 +21,7 @@ useHead({
 <template>
      <section class="text-center">
         <Nav/>
-        <div class="p-5">
+        <div class="p-5 bg-[#F7F8FE]">
             <Table/>
         </div>
     </section>

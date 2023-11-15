@@ -5,7 +5,7 @@
 
 
 <template>
-    <nav class="border-b-[1px] border-border">            
+    <nav class="border-b-[1px] border-border bg-white">            
         <ul class="flex justify-start items-center">
             <NavItem
                 v-for="(item, index) in nav"
